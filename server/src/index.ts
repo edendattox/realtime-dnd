@@ -15,7 +15,7 @@ const io = new Server(server, {
   },
 });
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3001;
 
 const db = new sqlite3.Database("./database.sqlite", (err) => {
   if (err) {
